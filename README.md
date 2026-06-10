@@ -93,7 +93,6 @@ or open `app.R` in RStudio and click **Run App**.
 .
 ├── app.R
 ├── README.md
-└── thesis/
 ```
 
 ## Author
