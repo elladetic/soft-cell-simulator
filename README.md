@@ -39,16 +39,6 @@ At each iteration:
 
 As the number of iterations increases, the generated polygon converges toward a smooth planar soft cell whose boundary arcs meet tangentially at (P^+) and (P^-).
 
-## Initial Configuration
-
-The current implementation uses a diamond-shaped polygon (a rotated square) as the initial admissible polygon:
-
-[
-P^+=(0,1), \qquad P^-=(0,-1).
-]
-
-The right and left boundary chains are iteratively refined according to the algorithm described in the thesis.
-
 ## Controls
 
 ### Parameter (\rho)
@@ -109,8 +99,5 @@ or open `app.R` in RStudio and click **Run App**.
 ## Author
 
 Eleonora Detić
-Algebra Bernays, University of Zagreb
+Algebra Bernays University, Zagreb
 
-## Related Work
-
-The application accompanies the theoretical results on the iterative construction of planar soft cells from convex polygons and is based on the concept of soft cells introduced by Domokos et al.
