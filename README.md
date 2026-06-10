@@ -1,8 +1,7 @@
-# Soft Cell Generator
 
 ## Overview
 
-**Soft Cell Generator** is an interactive web application developed in **R** using the **Shiny** framework. The application visualizes the iterative algorithm introduced in the accompanying master's thesis for transforming an admissible convex polygon into a planar soft cell.
+**Soft Cell Simulator** is an interactive web application developed in **R** using the **Shiny** framework. The application visualizes the iterative algorithm for transforming an admissible convex polygon into a planar soft cell.
 
 The implementation demonstrates how repeated corner cutting and boundary correction gradually smooth the polygon boundary while preserving the distinguished vertices (P^+) and (P^-). Users can explore the effect of the algorithm parameter (\rho), inspect intermediate iterations, and visualize the geometric construction step by step.
 
@@ -110,11 +109,8 @@ or open `app.R` in RStudio and click **Run App**.
 ## Author
 
 Eleonora Detić
-
-Master's Thesis Project
-
 Algebra Bernays, University of Zagreb
 
 ## Related Work
 
-The application accompanies the theoretical results presented in the master's thesis on the iterative construction of planar soft cells from convex polygons and is based on the concept of soft cells introduced by Domokos et al.
+The application accompanies the theoretical results on the iterative construction of planar soft cells from convex polygons and is based on the concept of soft cells introduced by Domokos et al.
